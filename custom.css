@@ -1,0 +1,20 @@
+.masterhead {
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+
+}
+
+@media (max-width: 1000px) {
+    .masterhead {
+        min-height: 30vh;
+    }
+}
+
+.bg-image {
+    background-image: url('img/car-522411_1280_1.png');
+    background-size: cover; /* Para que la imagen cubra todo el fondo */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; /* Para evitar la repetición de la imagen */
+    padding: 100px 0; /* Ajusta según necesites */
+}
